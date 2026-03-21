@@ -10,8 +10,15 @@ a,b=10,3
 print(a//b) #it is a floor function 
 print(a/b)
 
-name1=input("name:")
+age=int(input())
+
+"""name1=input("name:")
 print(name1)
 age=int(input("enter no."))
 price=float(input("enter"))
-print(age,price)
+print(age,price)"""
+
+if(age>20):
+    print("LESGGOO")
+else:
+    print("HATT")
