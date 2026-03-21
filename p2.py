@@ -11,6 +11,7 @@ str3="APPLE"
 print(str3[-3:-1])   #A(-5)P(-4)P(-3)L(-2)E(-1)
 
 str4="i am a Coder"
+#some functions of strings 
 print(str4.endswith("er")) #return true if ends with er
 print(str4.capitalize()) #makes a new string and capatalize the first letter 
 print(str4.replace("a","z"))
