@@ -14,3 +14,5 @@ str4="i am a Coder"
 print(str4.endswith("er")) #return true if ends with er
 print(str4.capitalize()) #makes a new string and capatalize the first letter 
 print(str4.replace("a","z"))
+print(str4.find("a"))
+print(str4.count("am"))
