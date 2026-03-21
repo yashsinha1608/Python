@@ -5,3 +5,4 @@ print(marks[1])
 
 list=["mumbai",20,89.24]
 print(list)
+print(list[0])
