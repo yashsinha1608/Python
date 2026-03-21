@@ -7,4 +7,5 @@ name="Yashu"
 print("my name is",name)
 print(type(name))
 a,b=10,3
-print(a//b)
+print(a//b) #it is a floor function 
+print(a/b)
