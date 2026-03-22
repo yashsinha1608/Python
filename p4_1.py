@@ -1,3 +1,4 @@
+#dictionary 
 info = {
     "name":"yash",
     "age":21,
