@@ -3,6 +3,7 @@
 #but elements in set are immutable 
 
 nums={ 1,2,4,6,"yash","sinha"}
+nums1={2,6,3,8,"sinha",21,1}
 print(nums)
 print(len(nums))
 
@@ -15,3 +16,6 @@ nums.remove(6)
 print(nums)
 #nums.clear() #clears the entire set 
 nums.pop() #pop a random value
+
+print(nums.union(nums1)) 
+print(nums.intersection(nums1)) 
