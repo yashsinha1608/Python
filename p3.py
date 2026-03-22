@@ -1,4 +1,4 @@
-#list and tuples    
+#list,they are like arrays 
 marks=[82.4,23.1,213,32.1,43.1,21.12,45.6]
 print(marks)
 print(marks[1])
