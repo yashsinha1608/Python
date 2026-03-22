@@ -31,3 +31,4 @@ details={
 print(details)
 print(details["sub"])
 print(details["sub"]["AI"])
+
