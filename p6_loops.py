@@ -2,12 +2,16 @@
 #while condition:
  #some work
 n=5
-while n<10:
+while n<7:
     print(n)
     n+=1
 
 #continue and break statement is also used 
 
+#for loop
+list = [2,5,1,7,1]
 
+for num in list:
+    print(num)
 
 
