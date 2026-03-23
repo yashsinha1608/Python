@@ -6,10 +6,13 @@ data=f.readline() #reads one line at a time
 print(data)
 f.close()"""
 
-f=open("demo.txt","w") #writting a file
-f.write("This is a new inserted line")  #overwrites the entire file 
+"""f=open("demo.txt","w") #writting a file  #overwrites the entire file 
 
+f.write("This is a new inserted line") 
+f=open("demo.txt","r")
+print(f.read())"""
+
+f=open("demo.txt","a") #adds a new line in the file 
+f.write("  ADDED LINE")
 f=open("demo.txt","r")
 print(f.read())
-
-
