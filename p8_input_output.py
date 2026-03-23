@@ -1,4 +1,5 @@
-#f=open("file name","mode")  mode:- either read or write 
+#f=open("file name","mode")  mode:- either read or write \
+import os #used for deleting 
 """f=open("demo.txt","r")
 data=f.read(6)
 data=f.readline() #reads one line at a time
@@ -19,6 +20,8 @@ print(f.read())"""
 
 
 #another way 
-with open("demo.txt","r") as f:
+"""with open("demo.txt","r") as f:
     data=f.read()
-    print(data)
+    print(data)"""
+
+os.remove("demo.txt") #used to delete a file 
