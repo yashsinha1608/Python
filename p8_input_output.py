@@ -25,3 +25,4 @@ print(f.read())"""
     print(data)"""
 
 os.remove("demo.txt") #used to delete a file 
+
